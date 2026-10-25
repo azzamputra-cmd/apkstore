@@ -4,7 +4,7 @@ name: Build APK STORE
 on:
   workflow_dispatch:
   push:
-    branches: [ "utama" ]
+    branches: [ "main" ]
 
 jobs:
   build:
